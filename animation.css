@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.transition-box {
+    background-color: blue;
+    display: inline-flex;
+    padding: 80px 40px;
+    transition: 2s ease;
+}
+
+.transition-box:hover {
+    background-color: chocolate;
+    border-radius: 40px;
+    transform: rotate(360deg);
+}
+
+.animation-box {
+    background-color: blue;
+    display: inline-flex;
+    padding: 80px 40px;
+    animation: mymove 4s infinite;
+    position: relative;
+}
+
+@keyframes mymove {
+    0% {
+        left: 0px;
+        top: 0px;
+        background-color: blue;
+        border-radius: 100px
+    }
+
+    25% {
+        left: 400px;
+        top: 0px;
+        background-color: brown;
+        border-radius: 100px;
+    }
+
+    50% {
+        left: 400px;
+        top: 400px;
+        background-color: orchid;
+        border-radius: 100px;
+    }
+
+    75% {
+        left: 0px;
+        top: 400px;
+        background-color: goldenrod;
+        border-radius: 100px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: blue;
+        border-radius: 100px
+    }
+
+}

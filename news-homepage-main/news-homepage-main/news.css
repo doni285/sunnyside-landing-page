@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 900px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+nav ul li a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.left div img {
+    width: 90%;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.right {
+    background-color: black;
+    width: 300px;
+    padding: 20px;
+    height: 650px;
+    margin-top: 15px;
+}
+
+.upper-box {
+    display: flex;
+    gap: 40px;
+}
+
+.right h2 {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.right h1 {
+    color: hsl(35, 77%, 62%);
+}
+
+.right p {
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.right h2:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.left1 {
+    margin-left: 100px;
+    font-weight: 900;
+    font-size: 43px;
+    width: 480px;
+    height: 240px;
+    font-family: "inter", sans-serif;
+    line-height: 0.9;
+    margin-top: 40px;
+}
+
+.right1 {
+    width: 440px;
+    height: 240px;
+    margin-top: 40px;
+    margin-left: 90px;
+    line-height: 1.6;
+    font-size: 23px;
+    color: hsl(236, 13%, 42%);
+}
+
+.right1 button {
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    letter-spacing: 1.8px;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+}
+.right1 button:hover {
+    background-color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.ok {
+    display: flex;
+}
+
+.upper-box {
+    margin-bottom: 80px;
+}
+
+.lower-box {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.one {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.inner-one {
+    margin-left: 20px;
+    font-size: 15px;
+    width: 190px;
+    line-height: 2;
+
+}
+
+.one img {
+    width: 100px;
+    height: 160px;
+}
+
+.inner-one h1 {
+    color: hsl(5, 85%, 63%);
+}
+
+.inner-one h2:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.inner-one p {
+    color: hsl(236, 13%, 42%);
+}
+
+.two {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 110px;
+}
+
+.inner-two {
+    margin-left: 20px;
+    font-size: 15px;
+    width: 225px;
+    line-height: 2;
+}
+
+.two img {
+    width: 100px;
+    height: 160px;
+}
+
+.inner-two h1 {
+    color: hsl(5, 85%, 63%);
+}
+
+.inner-two h2:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.inner-two p {
+    color: hsl(236, 13%, 42%);
+}
+
+
+.three {
+    margin-left: 4s0px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.inner-three {
+    margin-left: 20px;
+    font-size: 15px;
+    width: 250px;
+    line-height: 2;
+}
+
+.three img {
+    width: 100px;
+    height: 160px;
+}
+
+.inner-three h1 {
+    color: hsl(5, 85%, 63%);
+}
+
+.inner-three h2:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.inner-three p {
+    color: hsl(236, 13%, 42%);
+}
+
+@media (max-width: 480px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .big-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upper-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lower-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right {
+        margin-top: 800px;
+    }
+
+    .ok {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 20%;
+        padding: 0px;
+    }
+
+    nav ul {
+        margin-left: 0px;
+    }
+
+    .left div img {
+        width: 100%;
+        margin: 0px;
+        object-fit: cover;
+    }
+    body{
+        padding:10px;
+    }
+
+    .left1 {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .right1 {
+        margin-left: 0px;
+        width: 100%;
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .right {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .one,
+    .two,
+    .three {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .one p,
+    .two p,
+    .three p {
+        font-weight: 800;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .one img,
+    .two img,
+    .three img {
+        width: 30%;
+        height: 13em;
+    }
+}

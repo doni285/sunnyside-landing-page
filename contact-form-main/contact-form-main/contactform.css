@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+form {
+    margin-left: 80vh;
+    margin-top: 20vh;
+    width: 100vh;
+    height: 70vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+.one {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.first {
+    display: block;
+    padding-right: 5vh;
+}
+
+.first input {
+    width: 45vh;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: aquamarine;
+}
+
+.second {
+    display: block;
+}
+
+.second input {
+    width: 45vh;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: aquamarine;
+}
+
+.two {
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+.two input {
+    width: 97vh;
+    height: 10vh;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: aquamarine;
+}
+
+.three {
+    display: flex;
+}
+
+.third {
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    width: 45vh;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+        padding-right: 5vh;
+        
+
+}
+
+.fourth {
+    margin-top: 3.3vh;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    width: 45vh;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+
+}

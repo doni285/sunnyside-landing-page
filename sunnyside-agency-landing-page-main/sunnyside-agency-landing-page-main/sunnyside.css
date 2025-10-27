@@ -1,0 +1,478 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 330px;
+    margin-left: 800px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li:nth-child(4) a {
+    color: black;
+    background-color: white;
+    padding: 7px 13px;
+    border-radius: 20px;
+}
+
+.header-div {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    position: absolute;
+    right: 30px;
+}
+
+header nav .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.header-div h1 {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+}
+
+.header-div img {
+    height: 140px;
+    width: 60px;
+    margin-top: 40px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80vh 80vh 80vh;
+}
+
+section .second {
+    background-image: url(./images/desktop/image-transform.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+section .third {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+section .fifth {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+section .sixth {
+    background-image: url(./images/desktop/image-photography.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.first {
+    width: 80%;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 200px;
+}
+
+.first p {
+    line-height: 1.8;
+    color: hsl(210, 4%, 67%);
+    font-family: "Barlow";
+    padding: 15px 0px;
+}
+
+.first strong a {
+    text-decoration: underline yellow 4px;
+    color: hsl(212, 27%, 19%);
+    border-radius: 5px;
+}
+
+.first h1 {
+    font-weight: 900;
+    font-family: "Fraunces";
+    color: hsl(212, 27%, 19%);
+}
+
+.fourth {
+    width: 80%;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 200px;
+}
+
+.fourth p {
+    line-height: 1.8;
+    color: hsl(210, 4%, 67%);
+    font-family: "Barlow";
+    padding: 15px 0px;
+}
+
+.fourth strong a {
+    margin-top: 20px;
+    text-decoration: underline hsl(210, 4%, 67%) 4px;
+    color: hsl(212, 27%, 19%);
+}
+
+.fourth h1 {
+    font-weight: 900;
+    font-family: "Fraunces";
+    color: hsl(212, 27%, 19%);
+}
+
+.fifth {
+    width: 100%;
+}
+
+.fifth div {
+    width: 80%;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 200px;
+    padding-top: 380px;
+}
+
+.fifth h1 {
+    margin-bottom: 20px;
+    color: hsl(213, 9%, 39%);
+    font-family: "Fraunces";
+    font-weight: 900;
+    text-align: center;
+}
+
+.fifth p {
+    line-height: 25px;
+    color: hsl(232, 10%, 55%);
+    font-family: "Barlow";
+    font-weight: 600;
+    text-align: center;
+}
+
+.sixth {
+    width: 100%;
+}
+
+.sixth div {
+    width: 80%;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 200px;
+    padding-top: 380px;
+}
+
+.sixth h1 {
+    margin-bottom: 20px;
+    color: hsl(213, 9%, 39%);
+    font-family: "Fraunces";
+    font-weight: 900;
+    text-align: center;
+}
+
+.sixth p {
+    line-height: 25px;
+    color: hsl(232, 10%, 55%);
+    font-family: "Barlow";
+    font-weight: 600;
+    text-align: center;
+}
+
+#mid-section {
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    padding: 100px;
+    height: 80%;
+}
+
+.under {
+    color: hsl(213, 9%, 39%);
+    font-weight: 700;
+}
+
+main h1 {
+    color: hsl(210, 4%, 67%);
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 6px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.one {
+    text-align: center;
+    width: 310px;
+
+}
+
+.one img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.two {
+    text-align: center;
+    width: 300px;
+}
+
+.two img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.three {
+    text-align: center;
+    width: 290px;
+}
+
+.three img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    margin: 40px 0px 0px 10px;
+    font-weight: 900;
+    font-family: "Fraunces";
+}
+
+.other {
+    color: hsl(232, 10%, 55%);
+}
+
+.okan {
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.meji {
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.meta {
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.merin {
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.lower {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.lower div {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.omega {
+    background-color: hsl(232, 10%, 55%);
+
+}
+
+footer {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    line-height: 5;
+}
+
+footer div {
+    word-spacing: 30px;
+
+}
+
+footer h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+footer div i:hover {
+    color: white;
+
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+
+footer ul a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul a:hover {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    section .first {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    section .fourth {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fifth div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 380px;
+    }
+
+    .sixth div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 380px;
+    }
+
+    main #mid-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    main h1 {
+        font-size: 14px;
+
+    }
+
+    .lower {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 40vh 40vh;
+    }
+
+    .header-div {
+        margin-top: 80px;
+    }
+
+    .header-div h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    header nav ul {
+        display: none;
+        list-style: none;
+        position: absolute;
+        top: 60px;
+        right:0px;
+        gap: 20px;
+        padding: 10px ;
+        flex-direction: column;
+        width: 100%;
+        background-color:cadetblue;
+        border-radius: 10px;
+        z-index:1;
+        height:40vh;
+        justify-content: center;
+
+    }
+    header nav .hamburger{
+        display: flex;
+        /* margin-top: 20px; */
+    }
+    ul.show{
+        display: flex;  
+    }
+}

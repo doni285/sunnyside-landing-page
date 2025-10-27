@@ -1,0 +1,64 @@
+body{
+     background-color: hsl(47, 88%, 63%);
+     padding-top:50px;
+}
+
+#container{
+     border: 2px solid black;  
+     width: 300px;
+     background-color:  hsl(0, 0%, 100%);
+     padding: 25px 25px;
+     border-radius: 20px;
+     justify-content: center;
+     font-family: 'figtree', sans-serif;
+     margin-left: 400px;
+     box-shadow: 5px 5px 1px black;
+}
+
+#picture{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.man{
+     font-weight: 800;
+}
+
+#yam{
+     font-size: 16px;
+     color: hsl(0, 0%, 42%);
+     font-weight: 600;
+     line-height: 22px;
+}
+
+h2{
+    /* font-size: 27px;   */
+     transition:  0.3s ;
+}
+h2:hover{
+     color: hsl(47, 88%, 63%);
+     cursor: pointer;
+}     
+
+img{
+     width:40px;
+}
+
+p{
+    font-weight: 600;
+     font-size: 16px;
+     color:black
+     
+}
+
+button{
+     margin-top: 20px;
+     width: 90px;
+     padding: 5px 0px;
+     background-color: hsl(47, 88%, 63%);
+     border:none;
+     border-radius: 4px;
+     font-weight: 900;
+}
+
+

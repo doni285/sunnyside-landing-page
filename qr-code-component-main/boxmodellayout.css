@@ -1,0 +1,11 @@
+.first{
+    border:2px solid red;
+    width: 500px;
+}
+.second{
+    position:relative;
+    bottom:200px;
+    border:2px solid blue;
+    width: 500px;
+}
+
